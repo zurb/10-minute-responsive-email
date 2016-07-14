@@ -1,0 +1,6 @@
+table.body img.small-expanded {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    max-width: $global-width !important;
+    width: 100% !important;
+  }
+}
